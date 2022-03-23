@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_graphtab1">
+
+    <!--    <include app:graph="@navigation/nav_graphtab1" />-->
+    <!--    <include app:graph="@navigation/nav_graphtab2" />-->
+    <!--    <include app:graph="@navigation/nav_graphtab3" />-->
+
+    <navigation
+        android:id="@+id/nav_graphtab1"
+        app:startDestination="@id/blankFragment1">
+
+        <fragment
+            android:id="@+id/blankFragment1"
+            android:name="com.example.myapplication.BlankFragment1"
+            android:label="fragment_blank1"
+            tools:layout="@layout/fragment_blank1" />
+    </navigation>
+
+    <navigation
+        android:id="@+id/nav_graphtab2"
+        app:startDestination="@id/blankFragment2">
+
+        <fragment
+            android:id="@+id/blankFragment2"
+            android:name="com.example.myapplication.BlankFragment2"
+            android:label="fragment_blank2"
+            tools:layout="@layout/fragment_blank2">
+            <action
+                android:id="@+id/action_blankFragment2_to_blankFragment4"
+                app:destination="@id/blankFragment4" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/blankFragment4"
+            android:name="com.example.myapplication.BlankFragment4"
+            android:label="fragment_blank4"
+            tools:layout="@layout/fragment_blank4">
+            <action
+                android:id="@+id/action_blankFragment4_to_blankFragment5"
+                app:destination="@id/blankFragment5" />
+        </fragment>
+        <fragment
+            android:id="@+id/blankFragment5"
+            android:name="com.example.myapplication.BlankFragment5"
+            android:label="fragment_blank5"
+            tools:layout="@layout/fragment_blank5" />
+    </navigation>
+
+    <navigation
+        android:id="@+id/nav_graphtab3"
+        app:startDestination="@id/blankFragment3">
+
+        <fragment
+            android:id="@+id/blankFragment3"
+            android:name="com.example.myapplication.BlankFragment3"
+            android:label="fragment_blank3"
+            tools:layout="@layout/fragment_blank3">
+            <action
+                android:id="@+id/action_blankFragment3_to_blankFragment6"
+                app:destination="@id/blankFragment6" />
+            <deepLink app:uri="www.test.com/" />
+        </fragment>
+        <fragment
+            android:id="@+id/blankFragment6"
+            android:name="com.example.myapplication.BlankFragment6"
+            android:label="fragment_blank6"
+            tools:layout="@layout/fragment_blank6" />
+    </navigation>
+
+</navigation>

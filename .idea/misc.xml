@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_deep_linking.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank1.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank2.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank3.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank4.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank5.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank6.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AndroidStudioProjects/MyApplication/app/src/main/res/menu/drawer_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/yasir.tanveer/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.13269927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
